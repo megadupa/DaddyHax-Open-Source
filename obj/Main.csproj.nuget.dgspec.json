@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects2023\\DaddyHax\\Main\\Main.csproj": {}
+  },
+  "projects": {
+    "D:\\Memory\\Memory\\Memory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Memory\\Memory\\Memory.csproj",
+        "projectName": "Memory",
+        "projectPath": "D:\\Memory\\Memory\\Memory.csproj",
+        "packagesPath": "C:\\Users\\Noone\\.nuget\\packages\\",
+        "outputPath": "D:\\Memory\\Memory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "A:\\VisualStudio\\Tools, SDKs\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Noone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows8.0": {
+            "targetAlias": "net7.0-windows8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows8.0": {
+          "targetAlias": "net7.0-windows8.0",
+          "dependencies": {
+            "Discord.Webhooks": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "DiscordRichPresence": {
+              "target": "Package",
+              "version": "[1.1.3.18, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.ServiceProcess.ServiceController": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects2023\\DaddyHax\\Main\\Main.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects2023\\DaddyHax\\Main\\Main.csproj",
+        "projectName": "RandomString",
+        "projectPath": "D:\\Projects2023\\DaddyHax\\Main\\Main.csproj",
+        "packagesPath": "C:\\Users\\Noone\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects2023\\DaddyHax\\Main\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "A:\\VisualStudio\\Tools, SDKs\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Noone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows8.0": {
+            "targetAlias": "net7.0-windows8.0",
+            "projectReferences": {
+              "D:\\Memory\\Memory\\Memory.csproj": {
+                "projectPath": "D:\\Memory\\Memory\\Memory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows8.0": {
+          "targetAlias": "net7.0-windows8.0",
+          "dependencies": {
+            "System.Management": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
